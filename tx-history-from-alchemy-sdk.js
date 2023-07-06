@@ -1,8 +1,8 @@
 import { Alchemy, Network } from "alchemy-sdk";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
 const config = {
-  apiKey: process.env.Alchemy_api,
+  apiKey: process.env.alchemy_api,
   network: Network.MATIC_MAINNET,
 };
 const alchemy = new Alchemy(config);
